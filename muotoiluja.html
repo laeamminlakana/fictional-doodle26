@@ -6,29 +6,81 @@
     <title>Document</title>
 </head>
 <body>
-    <p>HTML:ssä on paljon muotoiluelementtejä. Tekstiä voi esimerkiksi lihavoida
-(b) tai vahventaa (strong). Teksti voi olla pientä (small) tai se voi olla
-alaviite (sub) tai yläviite (sup). On myös mahdollista merkitä lisätty teksti
-(ins) ja vastaavasti poistettu teksti (del). Tekstiä voi myös korostaa (mark).
-    
-"Aika hienoa" (i), sanoi tietotekniikan opettaja.
-
-"Mutta pitää painottaa, että liiat muotoilut vaikeuttavat tekstin lukemista"
-(em), sanoivat viestinnän opettaja ja erityisopettaja kuin yhdestä suusta.</p>
-
+    <a href="index.html" target="_blank">aloitussivulle.</a>
+    <h1>Teksti</h1>
+    <p>HTML:ssä on paljon muotoiluelementtejä. Tekstiä voi esimerkiksi <b>lihavoida</b>(b) tai <strong>vahventaa</strong> (strong). Teksti voi olla <small>pientä</small> (small) tai se voi olla<sub>alaviite</sub> (sub) tai <sup>yläviite</sup> (sup). On myös mahdollista merkitä <ins>lisätty teksti</ins> (ins) ja vastaavasti <del>poistettu teksti</del> (del). Tekstiä voi myös <mark>korostaa</mark> (mark).<br><br><i>"Aika hienoa"</i> (i), sanoi tietotekniikan opettaja.<br><br><em>"Mutta pitää painottaa, että liiat muotoilut vaikeuttavat tekstin lukemista"</em>(em), sanoivat viestinnän opettaja ja erityisopettaja kuin yhdestä suusta.</p>   
 <h1>Taulukko</h1>
-Maaliskuu 2026
+<style>
+table, th, td, caption {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
     <table>
         <tr>
-            <th>Maaliskuu 2026</th>
+            <caption style="background-color: lightgray"><b>Maaliskuu 2026</b></caption>
         </tr>
         <tr>
-            <td>Kentta1data1</td>
-            <td>Kentta2data1</td>
+            <th style="background-color: lightgray">VK</th>
+            <th>Ma</th>
+            <th>Ti</th>
+            <th>Ke</th>
+            <th>To</th>
+            <th>Pe</th>
+            <th>La</th>
+            <th>Su</th>
         </tr>
         <tr>
-            <td>kentta2data1</td>
-            <td>kantta2data2</td>
+            <th style="background-color: lightgray">9</th>
+            <td colspan="6"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightgray">10</th>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightgray">11</th>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightgray">12</th>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightgray">13</th>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightgray">14</th>
+            <td>30</td>
+            <td>31</td>
+            <td colspan="5"></td>
         </tr>
     </table>
 </body>
